@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="720D6615-B8F1-497A-1B06-60EC279DBB76" name="Discussao">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>F9F1FDB4-B201-6EAB-96F5-AAA342977823</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="discussao_id" id="16944E1C-4963-5A42-21B6-52AD2AFC7CA7">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>D65470B9-38DB-E5B5-6F3F-5FFAB6350A80</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="FDDADC43-DBE9-856A-24E6-8C39E400C8C7">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>7289F912-5DD4-6212-6B03-9204DEAB21FA</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_comentario" id="378B73AE-2F3D-7410-1F19-48EC7CF2A389">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>CA737627-6091-5CD2-4307-87D113A29359</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projeto_projeto_id" id="2D988278-1C1E-9921-1D5A-77CEFB083D50">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>5D10D907-56E0-0090-53FA-98DBFADEABE8</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24D86C7B-68A0-3C2B-76EF-40304B6CE534" referredColumn="40F4083D-C415-D6AA-C3C1-8EA7E639F79B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEDA4191-ABCC-0DE5-0B83-CBE5B906E7A8" name="Discussao_PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>A3B0A1CF-1716-6F05-BDF0-35425A17BBCF</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16944E1C-4963-5A42-21B6-52AD2AFC7CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="973A6A3B-9F15-9DF5-4DEF-E6299EB29B46" name="Discussao_Projeto_FK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>5D4FAB8C-06FC-1262-4A80-8EBA027B6A86</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D988278-1C1E-9921-1D5A-77CEFB083D50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

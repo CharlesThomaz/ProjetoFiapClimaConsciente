@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="discutir" directorySegmentName="seg_0" id="5D4FAB8C-06FC-1262-4A80-8EBA027B6A86">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:39:03 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<sourcePk>E1A03898-21FD-112F-A5F7-BA2844D5A170</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29A7939A-5CE8-088E-8CEB-0C488DCCF265</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F9F1FDB4-B201-6EAB-96F5-AAA342977823</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

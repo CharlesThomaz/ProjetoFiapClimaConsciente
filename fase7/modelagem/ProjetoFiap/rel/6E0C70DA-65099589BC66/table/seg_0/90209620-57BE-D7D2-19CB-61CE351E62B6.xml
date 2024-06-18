@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90209620-57BE-D7D2-19CB-61CE351E62B6" name="Curso">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>30808932-932B-AA4D-4DE1-EA9EF43DC668</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="curso_id" id="C14A1EF6-D010-192F-CF5F-F2E90D5C8398">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>5E6419FD-75BC-E5EC-0F3F-A01988DD84D3</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="0850BB3E-5FBC-476A-1152-1DB5468F6063">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>026EA3A6-1E27-B7C5-C35E-26798A7D42CF</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="E6068C09-A125-1CB7-0BC3-32012586EFF5">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>48F0C603-EBA0-DE41-D5E4-A176433F181C</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="conteudo" id="DACB7CC0-4713-10D7-E376-AB0C3CC9FD3F">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>E863B3B6-E3D3-3CA6-9D0B-A4496343D519</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="B2A97648-4906-A035-4CD6-2B6CF26B6770">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>FF29BB3F-DB00-EF15-C6A6-D551FC07EFA4</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuário_user_id" id="3C687879-04D3-A0AF-F865-A19E77F2D0FB">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>F7A73B5B-1B37-B00B-D7FD-E375632584AB</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DE6CC9F-B92A-A87E-3DEA-CE685B8E0939" referredColumn="16E1E3A7-7EBD-5464-5140-3E8E1691552E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D59FA06D-8232-7D76-43F0-D8A3CA720324" name="Curso_PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>752F5FB4-71CC-6C63-2C06-2128693811B4</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C14A1EF6-D010-192F-CF5F-F2E90D5C8398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9252C343-96BB-7A73-DDD8-D44B4BC902B4" name="Curso_Usuário_FK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>999D39E0-CB76-ED01-76F6-2DA28B8F5089</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C687879-04D3-A0AF-F865-A19E77F2D0FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E5FC7FE-3403-211C-2908-BC4ED4A5AC31" name="criar">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuário_user_id" id="C2A62DD6-D9D7-511E-2C42-28EE69E7DA48">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="175597F6-4A1F-ADE1-A20D-25957AEF8FF5" referredColumn="16E1E3A7-7EBD-5464-5140-3E8E1691552E"/>
+</associations>
+</Column>
+<Column name="Projeto_projeto_id" id="6E95776E-429A-9386-277E-41AD81A99CD4">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB6CE514-1E65-B112-FEB7-60E6A4C17BAE" referredColumn="40F4083D-C415-D6AA-C3C1-8EA7E639F79B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B2B9ADF-5B50-BB6D-E8B3-6FDF45B93E5C" name="criar_PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A62DD6-D9D7-511E-2C42-28EE69E7DA48"/>
+<colUsage columnID="6E95776E-429A-9386-277E-41AD81A99CD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59EFBC81-C30B-9A16-A139-A5F3812F5FB7" name="criar_Usuário_FK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>30C8551D-1B55-AE5D-98AA-4E8AE2CDACB3</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A62DD6-D9D7-511E-2C42-28EE69E7DA48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06EF4540-E6D8-435C-CA64-21CEBDCC3A15" name="criar_Projeto_FK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>30C8551D-1B55-AE5D-98AA-4E8AE2CDACB3</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E95776E-429A-9386-277E-41AD81A99CD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

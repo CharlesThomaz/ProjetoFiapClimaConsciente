@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9F1FDB4-B201-6EAB-96F5-AAA342977823" name="Discussao ">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:37:12 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="discussao_id " id="D65470B9-38DB-E5B5-6F3F-5FFAB6350A80">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:37:20 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comentario" id="7289F912-5DD4-6212-6B03-9204DEAB21FA">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:37:26 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_comentario" id="CA737627-6091-5CD2-4307-87D113A29359">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:37:32 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="projeto_id" id="5D10D907-56E0-0090-53FA-98DBFADEABE8">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:39:03 UTC</createdTime>
+<generatorID>5D4FAB8C-06FC-1262-4A80-8EBA027B6A86</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<referedAttribute>764C5982-5658-5FDA-D351-A10041EE493E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3B0A1CF-1716-6F05-BDF0-35425A17BBCF" name="Discussao PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:37:21 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D65470B9-38DB-E5B5-6F3F-5FFAB6350A80</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

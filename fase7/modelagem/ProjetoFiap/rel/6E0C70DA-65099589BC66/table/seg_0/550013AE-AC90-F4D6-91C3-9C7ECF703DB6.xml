@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="550013AE-AC90-F4D6-91C3-9C7ECF703DB6" name="DadosAmbientais">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>4C6D6627-32DE-323D-CEEB-1B950ED15362</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_id" id="A6984DB0-3AE5-0DC3-12C1-FF87EE7B6B1A">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>62E3E4E9-518E-4C71-ED83-E90DD357D951</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperatura" id="0C049463-82CA-6F97-5183-010B0BFABAB1">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>3E8C4C4A-7F3B-7A2E-A622-6B96C6B5FE5D</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qualidade_ar" id="19F799A7-9A31-BDF9-75B3-926270C6535F">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>5582369E-2709-1868-65B1-62C8759DE170</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_co2" id="C056EA82-C763-0A1A-AC40-5827E69DC180">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>8280F92B-403C-7076-E9E5-2EA1E29F4A6A</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="taxa_desmatamento" id="83D63AE9-4E5E-1513-EE5E-778335B38A4A">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>D3627DA6-9E30-6D5A-3CAA-BA29063759CE</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4C9BCAB-78C8-8AD6-95FB-0A215622C746" name="DadosAmbientais_PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>5E8D03AC-5F94-2FE6-1253-F5704E5ED3E1</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6984DB0-3AE5-0DC3-12C1-FF87EE7B6B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

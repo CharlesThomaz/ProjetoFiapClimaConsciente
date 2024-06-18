@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2010E9A-2064-0944-2489-402863EE6D90" name="Alerta ">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:35:52 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="alerta_id " id="D6269967-235C-B033-A7D5-0A0CD2A4684E">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:00 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="1D3A9CAD-5F42-5E5F-6CFE-EA542ED40850">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:05 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="7FCC8696-D989-25E5-99A3-C5B3744170F1">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:12 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_alerta" id="D326D3BB-C78E-CCDA-317E-3C4501038E00">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:18 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="888C1926-048C-976F-F46B-39CC58FD77E9" name="Alerta PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:02 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6269967-235C-B033-A7D5-0A0CD2A4684E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

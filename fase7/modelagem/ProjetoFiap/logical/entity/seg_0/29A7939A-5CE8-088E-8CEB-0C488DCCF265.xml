@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29A7939A-5CE8-088E-8CEB-0C488DCCF265" name="Projeto ">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:27 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="projeto_id" id="764C5982-5658-5FDA-D351-A10041EE493E">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:38 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo " id="A362F9B8-EFAE-50C2-BAA9-5DC32BD4DD71">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:46 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="4BB957A7-0749-5DFF-AEEA-EB3763ACC8DE">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:57 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="F09DC839-52EB-DE3E-FBA7-6790A7472507">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:37:03 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1A03898-21FD-112F-A5F7-BA2844D5A170" name="Projeto PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:36:40 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>764C5982-5658-5FDA-D351-A10041EE493E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

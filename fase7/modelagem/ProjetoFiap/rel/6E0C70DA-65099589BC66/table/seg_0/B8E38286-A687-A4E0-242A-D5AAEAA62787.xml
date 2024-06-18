@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8E38286-A687-A4E0-242A-D5AAEAA62787" name="Questionario">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>0304BDAD-79EF-BA25-82FB-B2AFC3C7CB1C</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="quiz_id" id="A90430AE-C5CE-04E6-D60C-4E7A5D08DF5D">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>1AD651CF-8AC3-06B5-72AE-ABA59752A95A</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="8C0A5A92-3082-43B7-2827-70E1662061AF">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>9C1E42DD-50A0-A0BB-A6E7-19033B901810</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="perguntas" id="F5BD2F65-DF28-7EBC-6B33-8D8963C1F3CC">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>BFDC6323-AE8B-5845-5784-E4FF7F67D3D7</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_curso_id" id="AB8EE22B-743E-5681-3CBE-B511EED94CB8">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>ED313ED3-EE23-63F4-9C32-E319F7CCB468</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE06A9E7-4F32-FCC1-B6C8-CB803E6CE0DE" referredColumn="C14A1EF6-D010-192F-CF5F-F2E90D5C8398"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96148584-DE74-19BF-4A35-C3D2D34436C9" name="Questionario_PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>A50480DA-BA64-D398-E8E0-276804610A9C</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A90430AE-C5CE-04E6-D60C-4E7A5D08DF5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EDC3496-A6AE-1A09-23F1-3109AD91EEB0" name="Questionario_Curso_FK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:42:36 UTC</createdTime>
+<generatorID>16DC12D6-5C12-07DB-8414-AB1AA35E5392</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB8EE22B-743E-5681-3CBE-B511EED94CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30808932-932B-AA4D-4DE1-EA9EF43DC668" name="Curso ">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:34:44 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="curso_id " id="5E6419FD-75BC-E5EC-0F3F-A01988DD84D3">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:34:52 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="026EA3A6-1E27-B7C5-C35E-26798A7D42CF">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:34:57 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="48F0C603-EBA0-DE41-D5E4-A176433F181C">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:35:02 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conteudo" id="E863B3B6-E3D3-3CA6-9D0B-A4496343D519">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:35:06 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="FF29BB3F-DB00-EF15-C6A6-D551FC07EFA4">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:35:12 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id " id="F7A73B5B-1B37-B00B-D7FD-E375632584AB">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:40:37 UTC</createdTime>
+<generatorID>999D39E0-CB76-ED01-76F6-2DA28B8F5089</generatorID>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<referedAttribute>CB47BE4B-705F-1C36-EAC2-6A0A393F3872</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="752F5FB4-71CC-6C63-2C06-2128693811B4" name="Curso PK">
+<createdBy>charl</createdBy>
+<createdTime>2024-06-18 14:34:53 UTC</createdTime>
+<ownerDesignName>ProjetoFiap</ownerDesignName>
+<engineerTo>
+<item key="6E0C70DA-66CF-9D1F-3AD4-65099589BC66" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E6419FD-75BC-E5EC-0F3F-A01988DD84D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
